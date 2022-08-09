@@ -61,5 +61,5 @@
 
 ## Author
 
-- Website - [Bao Dang](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Bao Dang](https://github.com/weebao)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/weebao)
