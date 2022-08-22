@@ -11,7 +11,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch('https://api.adviceslip.com/advice')
+    fetch('https://api.adviceslip.com/advice', { cache: 'no-cache' })
       .then(response => response.json())
       .then(json => this.setState({
         advice: json.slip
@@ -19,7 +19,7 @@ class App extends React.Component {
   }
 
   getAdvice = () => {
-    fetch('https://api.adviceslip.com/advice')
+    fetch('https://api.adviceslip.com/advice', { cache: 'no-cache' })
       .then(response => response.json())
       .then(json => this.setState({
         advice: json.slip
