@@ -21,8 +21,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/first-react-app-with-api-DjMkEjo88W)
-- Live Site URL: [Add live site URL here](https://weebao.github.io/advice-generator-app-main/)
+- Solution URL: [Solution Site](https://www.frontendmentor.io/solutions/first-react-app-with-api-DjMkEjo88W)
+- Live Site URL: [Live Site](https://weebao.github.io/advice-generator-app-main/)
 
 ## My process
 
