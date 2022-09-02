@@ -6,8 +6,6 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Things to improve](#things-to-improve)
 - [Author](#author)
 
 ## Overview
@@ -18,46 +16,21 @@
 
 ![Advice Generator App](src/images/screenshot.png)
 
-
 ### Links
 
-- Solution URL: [Solution Site](https://www.frontendmentor.io/solutions/first-react-app-with-api-DjMkEjo88W)
-- Live Site URL: [Live Site](https://weebao.github.io/advice-generator-app-main/)
+- Solution URL: [Solution Site](https://www.frontendmentor.io/solutions/eyeballed-mediocre-replicate-using-flexbox-no_P9t1mq)
+- Live Site URL: [Live Site](https://weebao.github.io/order-summary-component-main/)
 
 ## My process
 
-- I started with looking up the basic of fetching JSON from the API and useState() to render the advices.
-- I found out that I could not fetch an advice before the website is rendered using useState(), so I rewrote my App function into a class component.
-- After making sure the website was functioning properly, I started styling by centering the div and creating the dice button.
-- I learned how to use animation for the first time and it felt amazing.
-- I also centered the divider image so that it will adjust itself with the size of the div instead of using different images for desktop and mobile.
+- I didn't know how to center a div in the middle of a screen, so I looked up and found several ways to do it.
+- I spent quite a while looking up CSS attributes and adjust them to look at close to the design as possible.
+- I encountered one challenge which was to organize the elements side by side with some gap between them, which also took me a while as I started learning how to use flexbox.
 
 ### Built with
 
-- [React](https://reactjs.org/) - JS library
+- HTML
 - CSS
-
-### Things to improve
-
-- I managed to fetch the API before the website renders using componentDidMount in the App class component, but I also had to write the same code for setState which is quite inefficient. I hope I would know some other way to do it somehow.
-
-```js
-  componentDidMount() {
-    fetch('https://api.adviceslip.com/advice')
-      .then(response => response.json())
-      .then(json => this.setState({
-        advice: json.slip
-      }));
-  }
-
-  getAdvice = () => {
-    fetch('https://api.adviceslip.com/advice')
-      .then(response => response.json())
-      .then(json => this.setState({
-        advice: json.slip
-      }));
-  }
-```
 
 ## Author
 
