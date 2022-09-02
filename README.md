@@ -14,7 +14,7 @@
 
 ### Screenshot
 
-![Advice Generator App](src/images/screenshot.png)
+![Advice Generator App](images/screenshot.png)
 
 ### Links
 
