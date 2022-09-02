@@ -62,4 +62,4 @@
 ## Author
 
 - Website - [Bao Dang](https://github.com/weebao)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/weebao)
+- Frontend Mentor - [@BaoDang](https://www.frontendmentor.io/profile/weebao)
